@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina Cocina</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <div class="logo">
+            <img src="Imagenes/Gemini_Generated_Image_jbfufvjbfufvjbfu-Photoroom.png" alt="Paulina Cocina"
+                style="height: 30px;">
+        </div>
+        <div style="position: relative;">
+            <button class="menu-btn" id="menuToggle">
+                <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="1" x2="30" y2="1" stroke="black" stroke-width="2" />
+                    <line y1="10" x2="30" y2="10" stroke="black" stroke-width="2" />
+                    <line y1="19" x2="30" y2="19" stroke="black" stroke-width="2" />
+                </svg>
+            </button>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="#inicio">Inicio</a>
+                <a href="#secciones-evento">Secciones del evento</a>
+                <a href="#lo-que-vamos-a-ver">Lo que vamos a ver en las clases</a>
+                <a href="#horarios">Horarios y fechas disponibles</a>
+                <a href="#informacion">Informacion importante</a>
+                <a href="#" id="linkRellenar">Rellenar el formulario</a>
+                <div class="dropdown-arrow-up">
+                    <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 1L1 11H23L12 1Z" stroke="black" stroke-width="1" fill="none" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <!-- Imagen para Desktop -->
+        <img src="Imagenes/Gemini_Generated_Image_mba4semba4semba4 1@2x.png" alt="Chef Paulina"
+            class="hero-bg d-desktop">
+
+        <!-- Imagen para Mobile -->
+        <img src="Imagenes/ChatGPT Image 10 may 2026, 06_05_15 a.m..png" alt="Chef Paulina" class="hero-bg d-mobile">
+        <div class="hero-overlay">
+            <h1>VENI QUE PAULINA <br>TE ENSEÑA!</h1>
+            <p>Experiencia 100% presencial, práctica y acompañada paso a paso.</p>
+        </div>
+        <button class="hero-btn" id="abrirModal">Reserva clase aca!</button>
+    </section>
+
+    <section class="contenido ajo-bg" id="secciones-evento">
+        <div class="titulo-wrapper">
+            <div class="titulo-seccion">Secciones del evento</div>
+        </div>
+
+        <div class="seccion-caja">
+            <div class="cards-info">
+                <div class="card-info">
+                    <img src="Imagenes/Gemini_Generated_Image_582wgx582wgx582w-Photoroom.png" alt="Comida">
+                    <div class="card-info-texto">Comida<br>extranjera</div>
+                </div>
+                <div class="card-info">
+                    <img src="Imagenes/unnamed-Photoroom (9) 1.png" alt="Organiza">
+                    <div class="card-info-texto">Organiza tu<br>semana</div>
+                </div>
+                <div class="card-info">
+                    <img src="Imagenes/unnamed-Photoroom (11) 1.png" alt="Tecnicas">
+                    <div class="card-info-texto">Tecnicas<br>infalibles</div>
+                </div>
+                <div class="card-info">
+                    <img src="Imagenes/unnamed-Photoroom (12) 1.png" alt="Practica">
+                    <div class="card-info-texto">Practica en<br>casa</div>
+                </div>
+            </div>
+
+            <p class="texto-evento">
+                En este evento especial te invitamos a participar de clases con
+                paulina en las que vas a poder aprender tecnicas de cocina,
+                mientras preparas recetas extranjeras de todo tipo con su ayuda y
+                guia directa. y de regalo te llevas tips y plantillas para organizar
+                tus comidas semanales, y un recetario para que practiques en
+                casa.
+            </p>
+        </div>
+    </section>
+
+    <section class="contenido" id="lo-que-vamos-a-ver">
+        <div class="titulo-wrapper">
+            <div class="titulo-seccion">Lo que vamos a ver en las clases</div>
+        </div>
+        <div class="cards-comida">
+            <div class="card-comida">
+                <div class="img-wrapper">
+                    <img src="Imagenes/67bc71ad58e12 1.png" alt="Kibbeh">
+                    <img src="Imagenes/siria.png" class="bandera" alt="Siria">
+                </div>
+                <div class="card-bottom">
+                    <img src="Imagenes/unnamed-Photoroom 1.png" class="icon-comida" alt="icon"> Kibbeh (o Kebbe)
+                </div>
+            </div>
+
+            <div class="card-comida">
+                <div class="img-wrapper">
+                    <img src="Imagenes/Dumplings-dim-sum-variado-Paulina-Cocina-Recetas-800x450 2.png" alt="Dim Sum">
+                    <img src="Imagenes/china.png" class="bandera" alt="China">
+                </div>
+                <div class="card-bottom">
+                    <img src="Imagenes/Gemini_Generated_Image_sl93ossl93ossl93-Photoroom 1.png" class="icon-comida"
+                        alt="icon"> Dim Sum
+                </div>
+            </div>
+
+            <div class="card-comida">
+                <div class="img-wrapper">
+                    <img src="Imagenes/japanese_mochi 2.png" alt="Mochi">
+                    <img src="Imagenes/japon.png" class="bandera" alt="Japón">
+                </div>
+                <div class="card-bottom">
+                    <img src="Imagenes/56d7e4fc-2fd1-4a4e-9171-37c8ce6d4df8-Photoroom 1.png" class="icon-comida"
+                        alt="icon"> Mochi
+                </div>
+            </div>
+
+            <div class="card-comida">
+                <div class="img-wrapper">
+                    <img src="Imagenes/MB_FOTF_Al_Pastor_Tacos_Web_Email_Social_Web_1280x770_jpg_2fcd91f4-67ef-4212-a1e7-3e7b621725f9 2.png"
+                        alt="Tacos">
+                    <img src="Imagenes/mexico.png" class="bandera" alt="México">
+                </div>
+                <div class="card-bottom">
+                    <img src="Imagenes/unnamed-Photoroom (1) 1.png" class="icon-comida" alt="icon"> Tacos al pastor
+                </div>
+            </div>
+
+            <div class="card-comida">
+                <div class="img-wrapper">
+                    <img src="Imagenes/Egyptian-Eggplant-Moussaka 2.png" alt="Moussaka">
+                    <img src="Imagenes/grecia.png" class="bandera" alt="Grecia">
+                </div>
+                <div class="card-bottom">
+                    <img src="Imagenes/17e4414d-983e-43a7-a2c6-af9de609afd0-Photoroom 1.png" class="icon-comida"
+                        alt="icon"> Moussaka
+                </div>
+            </div>
+
+            <div class="card-comida">
+                <div class="img-wrapper">
+                    <img src="Imagenes/DSC_8546web 2.png" alt="Brigadeiros">
+                    <img src="Imagenes/brasil.png" class="bandera" alt="Brasil">
+                </div>
+                <div class="card-bottom">
+                    <img src="Imagenes/unnamed-Photoroom (2) 1.png" class="icon-comida" alt="icon"> Brigadeiros
+                </div>
+            </div>
+
+            <div class="card-comida">
+                <div class="img-wrapper">
+                    <img src="Imagenes/1 11.png" alt="Pierogi">
+                    <img src="Imagenes/polonia.png" class="bandera" alt="Polonia">
+                </div>
+                <div class="card-bottom">
+                    <img src="Imagenes/unnamed-Photoroom (3) 1.png" class="icon-comida" alt="icon"> Pierogi
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenido" id="horarios">
+        <div class="titulo-wrapper">
+            <div class="titulo-seccion">Horarios y fechas disponibles</div>
+        </div>
+
+        <div class="tabla-desktop">
+            <div class="fila encabezado">
+                <div>Clase</div>
+                <div>Dia</div>
+                <div>Horario</div>
+                <div>Cupos libres</div>
+            </div>
+            <div class="tabla-body">
+                <div class="fila">
+                    <div><img src="Imagenes/unnamed-Photoroom 1.png" alt="Dim Sum"
+                            style="height: 40px; object-fit: contain;"></div>
+                    <div>Sabado 9/5</div>
+                    <div>9hs - 12hs</div>
+                    <div>0/12</div>
+                </div>
+                <div class="fila">
+                    <div><img src="Imagenes/Gemini_Generated_Image_sl93ossl93ossl93-Photoroom 1.png" alt="Kibbeh"
+                            style="height: 40px; object-fit: contain;"></div>
+                    <div>Sabado 9/5</div>
+                    <div>19hs - 22hs</div>
+                    <div>3/12</div>
+                </div>
+                <div class="fila">
+                    <div><img src="Imagenes/56d7e4fc-2fd1-4a4e-9171-37c8ce6d4df8-Photoroom 1.png" alt="Mochi"
+                            style="height: 40px; object-fit: contain;"></div>
+                    <div>Sabado 16/5</div>
+                    <div>14hs - 17hs</div>
+                    <div>7/12</div>
+                </div>
+                <div class="fila">
+                    <div><img src="Imagenes/unnamed-Photoroom (1) 1.png" alt="Tacos"
+                            style="height: 40px; object-fit: contain;"></div>
+                    <div>Sabado 23/5</div>
+                    <div>9hs - 12hs</div>
+                    <div>10/12</div>
+                </div>
+                <div class="fila">
+                    <div><img src="Imagenes/17e4414d-983e-43a7-a2c6-af9de609afd0-Photoroom 1.png" alt="Moussaka"
+                            style="height: 40px; object-fit: contain;"></div>
+                    <div>Sabado 30/5</div>
+                    <div>9hs - 12hs</div>
+                    <div>5/12</div>
+                </div>
+                <div class="fila">
+                    <div><img src="Imagenes/unnamed-Photoroom (2) 1.png" alt="Brigadeiros"
+                            style="height: 40px; object-fit: contain;"></div>
+                    <div>Sabado 30/5</div>
+                    <div>14hs - 17hs</div>
+                    <div>12/12</div>
+                </div>
+                <div class="fila">
+                    <div><img src="Imagenes/unnamed-Photoroom (3) 1.png" alt="Pierogi"
+                            style="height: 40px; object-fit: contain;"></div>
+                    <div>Sabado 30/5</div>
+                    <div>19hs - 22hs</div>
+                    <div>9/12</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-mobile">
+            <div class="card-horario">
+                <img src="Imagenes/unnamed-Photoroom 1.png" class="icon" alt="icono">
+                <div class="horario-texto">9hs - 12hs</div>
+                <div class="dia">Sabado 9/5</div>
+                <div class="estado">Agotado</div>
+            </div>
+            <div class="card-horario">
+                <img src="Imagenes/Gemini_Generated_Image_sl93ossl93ossl93-Photoroom 1.png" class="icon" alt="icon">
+                <div class="horario-texto">19hs - 22hs</div>
+                <div class="dia">Sabado 9/5</div>
+                <div class="estado">Ultimos 3 lugares!</div>
+            </div>
+            <div class="card-horario">
+                <img src="Imagenes/56d7e4fc-2fd1-4a4e-9171-37c8ce6d4df8-Photoroom 1.png" class="icon" alt="icon">
+                <div class="horario-texto">14hs - 17hs</div>
+                <div class="dia">Sabado 16/5</div>
+                <div class="estado">Disponible</div>
+            </div>
+            <div class="card-horario">
+                <img src="Imagenes/unnamed-Photoroom (1) 1.png" class="icon" alt="icon">
+                <div class="horario-texto">9hs - 12hs</div>
+                <div class="dia">Sabado 23/5</div>
+                <div class="estado">Disponible</div>
+            </div>
+            <div class="card-horario">
+                <img src="Imagenes/17e4414d-983e-43a7-a2c6-af9de609afd0-Photoroom 1.png" class="icon" alt="icon">
+                <div class="horario-texto">9hs - 12hs</div>
+                <div class="dia">Sabado 30/5</div>
+                <div class="estado">Ultimos 5 lugares!</div>
+            </div>
+            <div class="card-horario">
+                <img src="Imagenes/unnamed-Photoroom (2) 1.png" class="icon" alt="icon">
+                <div class="horario-texto">14hs - 17hs</div>
+                <div class="dia">Sabado 30/5</div>
+                <div class="estado">Disponible</div>
+            </div>
+            <div class="card-horario">
+                <img src="Imagenes/unnamed-Photoroom (3) 1.png" class="icon" alt="icon">
+                <div class="horario-texto">19hs - 22hs</div>
+                <div class="dia">Sabado 30/5</div>
+                <div class="estado">Disponible</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenido info-importante ajo-bg" id="informacion">
+        <div class="titulo-wrapper">
+            <div class="titulo-seccion">Informacion importante</div>
+        </div>
+
+        <div class="info-caja">
+            <p class="info-intro">Para estas clases especiales lo unico que tenes que traer son las ganas de aprender y
+                pasar el rato, ya que se te proporcionan ingredientes, herramientas e incluso el delantal.</p>
+
+            <div class="info-bloque flex-row">
+                <img src="Imagenes/Gemini_Generated_Image_jf4ym8jf4ym8jf4y-Photoroom.png" class="info-icon"
+                    alt="Location" style="filter: brightness(0) invert(1);">
+                <p>El evento se realizara en Azaí Espacio Culinario, ubicado en Virrey Loreto 3795, CABA.</p>
+            </div>
+
+            <div class="info-bloque flex-row flex-reverse">
+                <img src="Imagenes/Gemini_Generated_Image_ieppgrieppgriepp (1).png" class="info-icon" alt="Regalo"
+                    style="filter: brightness(0) invert(1);">
+                <p>Todos los participantes se llevan de regalo un recetario para practicar en casa y plantillas de
+                    organización para tus comidas semanales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-box">
+            <h2>NO TE PIERDAS ESTA OPORTUNIDAD UNICA!</h2>
+            <p>Veni a conocer a paulina, salir de tu zona de confort, pasar el rato
+                aprendiendo y llevate esta experiencia unica por tiempo limitado!</p>
+            <button id="abrirModal2">Me quiero sumar! &rarr;</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="Imagenes/Gemini_Generated_Image_jbfufvjbfufvjbfu-Photoroom.png" alt="Paulina Cocina"
+                style="height: 35px;">
+        </div>
+        <div class="redes">
+            <img src="Imagenes/image 23.png" alt="TikTok" class="social-icon">
+            <img src="Imagenes/image 24.png" alt="Instagram" class="social-icon">
+            <img src="Imagenes/image 22.png" alt="YouTube" class="social-icon">
+            <img src="Imagenes/image 26.png" alt="X" class="social-icon">
+            <img src="Imagenes/image 25.png" alt="Facebook" class="social-icon">
+        </div>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal-contenido">
+            <button class="cerrar" id="cerrarModal">✕</button>
+            <h2>Rellenar plantilla de inscripcion</h2>
+            <form id="formulario">
+                <label>Nombre</label>
+                <input type="text" id="nombre" required>
+
+                <label>Edad</label>
+                <input type="number" required>
+
+                <label>Gmail</label>
+                <input type="email" required>
+
+                <label>Numero de telefono</label>
+                <input type="text" required>
+
+                <label>Clase a la que quiere asistir</label>
+                <input type="text" required>
+
+                <div class="btn-wrapper">
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="modalGracias">
+        <div class="gracias-box">
+            <h2 id="mensajeGracias">Gracias "nombre"!</h2>
+            <p>Te enviaremos el comprobante de inscripcion al mail en las proximas horas.</p>
+            <button id="cerrarGracias">Entendido!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
